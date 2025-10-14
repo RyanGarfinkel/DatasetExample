@@ -1,0 +1,801 @@
+program,flags,file_size,total_lines,instructions,functions,basic_blocks,load_instructions,store_instructions,call_instructions,runtime_seconds,peak_memory_mb
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['sroa'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'dce', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['sroa'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['loop-unroll'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'sroa', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'sroa', 'gvn', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['sroa'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['gvn'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'mem2reg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'loop-unroll', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'dce', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'dce', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['gvn'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['dce'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'mem2reg', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['sroa'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['sroa'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'dce', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'dce', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['simplifycfg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['simplifycfg', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['simplifycfg', 'sroa', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['simplifycfg', 'sroa', 'dce', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['dce'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'simplifycfg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'simplifycfg', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'gvn', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'gvn', 'simplifycfg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['loop-unroll'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'gvn', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'gvn', 'mem2reg', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['dce'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'loop-unroll', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'sroa', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['mem2reg'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn', 'dce']",9650,115,52,1,1,12,3,27,0,0
+program_0,None,9636,115,52,1,1,12,3,27,0,0
+program_0,['-O3'],9894,115,52,1,1,12,3,27,0,0
+program_0,['dce'],9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'simplifycfg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'simplifycfg', 'mem2reg']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn']",9650,115,52,1,1,12,3,27,0,0
+program_0,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn', 'loop-unroll']",9650,115,52,1,1,12,3,27,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['sroa'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'loop-unroll']",443946,4710,665,12,12,261,41,197,0,0
+program_1,"['sroa', 'loop-unroll', 'gvn']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg']",419191,4288,542,12,12,215,40,199,0,0
+program_1,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce']",419191,4288,542,12,12,215,40,199,0,0
+program_1,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce', 'mem2reg']",419191,4288,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'simplifycfg']",432106,4456,657,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'dce']",432106,4456,657,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'dce', 'gvn']",420039,4302,536,12,12,214,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll']",421376,4328,541,12,12,214,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll', 'sroa']",421376,4328,541,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['sroa'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'simplifycfg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'loop-unroll']",433580,4484,664,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",433580,4484,664,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",433580,4484,664,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce', 'gvn']",421001,4323,536,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['loop-unroll'],492330,5584,982,12,12,546,221,228,0,0
+program_1,"['loop-unroll', 'sroa']",443400,4703,656,12,12,261,41,197,0,0
+program_1,"['loop-unroll', 'sroa', 'gvn']",430142,4519,536,12,12,214,41,197,0,0
+program_1,"['loop-unroll', 'sroa', 'gvn', 'dce']",430142,4519,536,12,12,214,41,197,0,0
+program_1,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg']",430142,4519,536,12,12,214,41,197,0,0
+program_1,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg', 'simplifycfg']",419191,4288,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['sroa'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'simplifycfg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll']",421382,4328,541,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce']",421382,4328,541,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce', 'mem2reg']",421382,4328,541,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['gvn'],452540,4942,616,12,12,215,221,282,0,0
+program_1,"['gvn', 'mem2reg']",427172,4474,536,12,12,214,41,197,0,0
+program_1,"['gvn', 'mem2reg', 'loop-unroll']",427944,4490,543,12,12,214,41,197,0,0
+program_1,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg']",416962,4258,545,12,12,215,40,199,0,0
+program_1,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce']",416962,4258,545,12,12,215,40,199,0,0
+program_1,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce', 'sroa']",416962,4258,545,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'loop-unroll']",443943,4710,665,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'loop-unroll', 'sroa']",443943,4710,665,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg']",432410,4460,661,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce']",432410,4460,661,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce', 'gvn']",420039,4302,536,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'dce']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'dce', 'loop-unroll']",443943,4710,665,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'dce', 'loop-unroll', 'gvn']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa', 'simplifycfg']",419188,4288,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['gvn'],452540,4942,616,12,12,215,221,282,0,0
+program_1,"['gvn', 'sroa']",427172,4474,536,12,12,214,41,197,0,0
+program_1,"['gvn', 'sroa', 'simplifycfg']",416787,4255,542,12,12,215,40,199,0,0
+program_1,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll']",418015,4281,547,12,12,215,40,199,0,0
+program_1,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",418015,4281,547,12,12,215,40,199,0,0
+program_1,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",418015,4281,547,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['dce'],491962,5575,982,12,12,546,221,228,0,0
+program_1,"['dce', 'sroa']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'mem2reg']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'mem2reg', 'simplifycfg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn', 'loop-unroll']",421382,4328,541,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['sroa'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'simplifycfg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'mem2reg']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce', 'loop-unroll']",421382,4328,541,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['sroa'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'dce']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['sroa', 'dce', 'loop-unroll']",443946,4710,665,12,12,261,41,197,0,0
+program_1,"['sroa', 'dce', 'loop-unroll', 'gvn']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg', 'simplifycfg']",419191,4288,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['simplifycfg'],487180,5469,986,12,12,546,221,228,0,0
+program_1,"['simplifycfg', 'sroa']",438518,4589,660,12,12,261,41,198,0,0
+program_1,"['simplifycfg', 'sroa', 'dce']",438518,4589,660,12,12,261,41,198,0,0
+program_1,"['simplifycfg', 'sroa', 'dce', 'loop-unroll']",439409,4605,667,12,12,261,41,198,0,0
+program_1,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn']",426830,4444,539,12,12,214,41,198,0,0
+program_1,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",426830,4444,539,12,12,214,41,198,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['dce'],491962,5575,982,12,12,546,221,228,0,0
+program_1,"['dce', 'simplifycfg']",487180,5469,986,12,12,546,221,228,0,0
+program_1,"['dce', 'simplifycfg', 'loop-unroll']",487540,5478,986,12,12,546,221,228,0,0
+program_1,"['dce', 'simplifycfg', 'loop-unroll', 'gvn']",449712,4878,619,12,12,215,221,283,0,0
+program_1,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa']",424344,4410,539,12,12,214,41,198,0,0
+program_1,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa', 'mem2reg']",424344,4410,539,12,12,214,41,198,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'gvn']",429652,4508,536,12,12,214,41,197,0,0
+program_1,"['mem2reg', 'gvn', 'simplifycfg']",419188,4288,542,12,12,215,40,199,0,0
+program_1,"['mem2reg', 'gvn', 'simplifycfg', 'dce']",419188,4288,542,12,12,215,40,199,0,0
+program_1,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa']",419188,4288,542,12,12,215,40,199,0,0
+program_1,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa', 'loop-unroll']",420525,4314,547,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['loop-unroll'],492330,5584,982,12,12,546,221,228,0,0
+program_1,"['loop-unroll', 'gvn']",453030,4953,616,12,12,215,221,282,0,0
+program_1,"['loop-unroll', 'gvn', 'mem2reg']",427662,4485,536,12,12,214,41,197,0,0
+program_1,"['loop-unroll', 'gvn', 'mem2reg', 'dce']",427662,4485,536,12,12,214,41,197,0,0
+program_1,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg']",416787,4255,542,12,12,215,40,199,0,0
+program_1,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg', 'sroa']",416787,4255,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['dce'],491962,5575,982,12,12,546,221,228,0,0
+program_1,"['dce', 'sroa']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'loop-unroll']",443946,4710,665,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'loop-unroll', 'mem2reg']",443946,4710,665,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn']",430028,4517,536,12,12,214,41,197,0,0
+program_1,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn', 'simplifycfg']",419191,4288,542,12,12,215,40,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'simplifycfg']",432106,4456,657,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'sroa']",432106,4456,657,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'sroa', 'gvn']",420039,4302,536,12,12,214,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce']",420039,4302,536,12,12,214,41,199,0,0
+program_1,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce', 'loop-unroll']",421376,4328,541,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['mem2reg'],442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'sroa']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['mem2reg', 'sroa', 'simplifycfg']",432106,4456,657,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll']",433574,4484,664,12,12,261,41,199,0,0
+program_1,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn']",420998,4323,536,12,12,214,41,199,0,0
+program_1,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn', 'dce']",420998,4323,536,12,12,214,41,199,0,0
+program_1,None,491948,5575,982,12,12,546,221,228,0,0
+program_1,['-O3'],408509,4061,460,7,7,201,40,187,0,0
+program_1,['dce'],491962,5575,982,12,12,546,221,228,0,0
+program_1,"['dce', 'sroa']",442910,4692,656,12,12,261,41,197,0,0
+program_1,"['dce', 'sroa', 'simplifycfg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['dce', 'sroa', 'simplifycfg', 'mem2reg']",432109,4456,657,12,12,261,41,199,0,0
+program_1,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn']",420042,4302,536,12,12,214,41,199,0,0
+program_1,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn', 'loop-unroll']",421382,4328,541,12,12,214,41,199,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['sroa'],406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'loop-unroll']",428832,7513,5361,17,17,1704,736,1081,0,0
+program_2,"['sroa', 'loop-unroll', 'gvn']",169760,3319,2301,17,17,958,736,1331,0,0
+program_2,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg']",165891,3231,2276,17,17,951,730,1325,0,0
+program_2,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce']",165891,3231,2276,17,17,951,730,1325,0,0
+program_2,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce', 'mem2reg']",165891,3231,2276,17,17,951,730,1325,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'simplifycfg']",378898,6161,5205,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'simplifycfg', 'dce']",378898,6161,5205,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'simplifycfg', 'dce', 'gvn']",159552,3145,2189,17,17,894,680,1262,0,0
+program_2,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll']",177251,3498,2344,17,17,957,736,1334,0,0
+program_2,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll', 'sroa']",87214,1852,1389,17,17,71,53,1536,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['sroa'],406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg', 'loop-unroll']",396417,6509,5359,17,17,1704,736,1081,0,0
+program_2,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",396417,6509,5359,17,17,1704,736,1081,0,0
+program_2,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",396417,6509,5359,17,17,1704,736,1081,0,0
+program_2,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce', 'gvn']",168684,3289,2298,17,17,958,736,1331,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['loop-unroll'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['loop-unroll', 'sroa']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['loop-unroll', 'sroa', 'gvn']",160413,3172,2190,17,17,896,680,1258,0,0
+program_2,"['loop-unroll', 'sroa', 'gvn', 'dce']",160413,3172,2190,17,17,896,680,1258,0,0
+program_2,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg']",160413,3172,2190,17,17,896,680,1258,0,0
+program_2,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg', 'simplifycfg']",159217,3139,2187,17,17,896,680,1258,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['sroa'],406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll']",176910,3492,2342,17,17,959,736,1330,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce']",176910,3492,2342,17,17,959,736,1330,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce', 'mem2reg']",176910,3492,2342,17,17,959,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['gvn'],167458,3331,2249,17,17,903,745,1290,0,0
+program_2,"['gvn', 'mem2reg']",160866,3184,2198,17,17,896,680,1262,0,0
+program_2,"['gvn', 'mem2reg', 'loop-unroll']",178128,3532,2351,17,17,959,736,1334,0,0
+program_2,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg']",169233,3286,2327,17,17,952,730,1328,0,0
+program_2,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce']",169233,3286,2327,17,17,952,730,1328,0,0
+program_2,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce', 'sroa']",79656,1649,1378,17,17,68,50,1531,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'loop-unroll']",429173,7519,5363,17,17,1702,736,1085,0,0
+program_2,"['mem2reg', 'loop-unroll', 'sroa']",174794,3601,2117,17,17,406,70,1395,0,0
+program_2,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg']",134790,2387,2098,17,17,401,66,1389,0,0
+program_2,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce']",134790,2387,2098,17,17,401,66,1389,0,0
+program_2,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce', 'gvn']",89598,1832,1543,17,17,226,66,1389,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'dce']",406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'dce', 'loop-unroll']",429173,7519,5363,17,17,1702,736,1085,0,0
+program_2,"['mem2reg', 'dce', 'loop-unroll', 'gvn']",170101,3325,2303,17,17,956,736,1335,0,0
+program_2,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa']",82507,1717,1386,17,17,71,53,1536,0,0
+program_2,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa', 'simplifycfg']",79186,1638,1367,17,17,66,50,1531,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['gvn'],167458,3331,2249,17,17,903,745,1290,0,0
+program_2,"['gvn', 'sroa']",160523,3178,2196,17,17,898,680,1258,0,0
+program_2,"['gvn', 'sroa', 'simplifycfg']",159326,3144,2192,17,17,898,680,1258,0,0
+program_2,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll']",176936,3495,2345,17,17,961,736,1330,0,0
+program_2,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",176936,3495,2345,17,17,961,736,1330,0,0
+program_2,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",176936,3495,2345,17,17,961,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['dce'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'sroa']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'mem2reg']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'mem2reg', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn', 'loop-unroll']",176910,3492,2342,17,17,959,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['sroa'],406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'mem2reg']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce', 'loop-unroll']",176910,3492,2342,17,17,959,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['sroa'],406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'dce']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['sroa', 'dce', 'loop-unroll']",428832,7513,5361,17,17,1704,736,1081,0,0
+program_2,"['sroa', 'dce', 'loop-unroll', 'gvn']",169760,3319,2301,17,17,958,736,1331,0,0
+program_2,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",169760,3319,2301,17,17,958,736,1331,0,0
+program_2,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg', 'simplifycfg']",165891,3231,2276,17,17,951,730,1325,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['simplifycfg'],392437,6458,5400,17,17,1799,745,1041,0,0
+program_2,"['simplifycfg', 'sroa']",378764,6161,5203,17,17,1641,680,1009,0,0
+program_2,"['simplifycfg', 'sroa', 'dce']",378764,6161,5203,17,17,1641,680,1009,0,0
+program_2,"['simplifycfg', 'sroa', 'dce', 'loop-unroll']",396626,6515,5359,17,17,1704,736,1081,0,0
+program_2,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn']",168893,3295,2298,17,17,958,736,1331,0,0
+program_2,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",168893,3295,2298,17,17,958,736,1331,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['dce'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'simplifycfg']",392437,6458,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'simplifycfg', 'loop-unroll']",392547,6461,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'simplifycfg', 'loop-unroll', 'gvn']",166623,3307,2246,17,17,903,745,1290,0,0
+program_2,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa']",159708,3154,2193,17,17,898,680,1258,0,0
+program_2,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa', 'mem2reg']",159708,3154,2193,17,17,898,680,1258,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'gvn']",160756,3178,2192,17,17,894,680,1262,0,0
+program_2,"['mem2reg', 'gvn', 'simplifycfg']",159560,3145,2189,17,17,894,680,1262,0,0
+program_2,"['mem2reg', 'gvn', 'simplifycfg', 'dce']",159560,3145,2189,17,17,894,680,1262,0,0
+program_2,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa']",159217,3139,2187,17,17,896,680,1258,0,0
+program_2,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa', 'loop-unroll']",176916,3492,2342,17,17,959,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['loop-unroll'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['loop-unroll', 'gvn']",167458,3331,2249,17,17,903,745,1290,0,0
+program_2,"['loop-unroll', 'gvn', 'mem2reg']",160866,3184,2198,17,17,896,680,1262,0,0
+program_2,"['loop-unroll', 'gvn', 'mem2reg', 'dce']",160866,3184,2198,17,17,896,680,1262,0,0
+program_2,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg']",159669,3150,2194,17,17,896,680,1262,0,0
+program_2,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg', 'sroa']",159326,3144,2192,17,17,898,680,1258,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['dce'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'sroa']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'loop-unroll']",428832,7513,5361,17,17,1704,736,1081,0,0
+program_2,"['dce', 'sroa', 'loop-unroll', 'mem2reg']",428832,7513,5361,17,17,1704,736,1081,0,0
+program_2,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn']",169760,3319,2301,17,17,958,736,1331,0,0
+program_2,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn', 'simplifycfg']",165891,3231,2276,17,17,951,730,1325,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'simplifycfg']",378898,6161,5205,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'simplifycfg', 'sroa']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['mem2reg', 'simplifycfg', 'sroa', 'gvn']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce', 'loop-unroll']",176908,3492,2342,17,17,959,736,1330,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['mem2reg'],406820,7024,5207,17,17,1639,680,1013,0,0
+program_2,"['mem2reg', 'sroa']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['mem2reg', 'sroa', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll']",396415,6509,5359,17,17,1704,736,1081,0,0
+program_2,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn']",168682,3289,2298,17,17,958,736,1331,0,0
+program_2,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn', 'dce']",168682,3289,2298,17,17,958,736,1331,0,0
+program_2,None,420065,7313,5400,17,17,1799,745,1041,0,0
+program_2,['-O3'],91066,1662,1414,10,10,264,42,357,0,0
+program_2,['dce'],420079,7313,5400,17,17,1799,745,1041,0,0
+program_2,"['dce', 'sroa']",406477,7018,5205,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'simplifycfg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'simplifycfg', 'mem2reg']",378555,6155,5203,17,17,1641,680,1009,0,0
+program_2,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn']",159209,3139,2187,17,17,896,680,1258,0,0
+program_2,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn', 'loop-unroll']",176910,3492,2342,17,17,959,736,1330,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['sroa'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'loop-unroll']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'loop-unroll', 'gvn']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg']",33337,704,188,21,21,38,20,194,0,0
+program_3,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce']",33163,702,186,21,21,38,20,194,0,0
+program_3,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce', 'mem2reg']",33163,702,186,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'simplifycfg', 'dce']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'simplifycfg', 'dce', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll']",33497,707,188,21,21,38,20,193,0,0
+program_3,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll', 'sroa']",33497,707,188,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['sroa'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'loop-unroll']",36672,748,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",36672,748,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",36672,748,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce', 'gvn']",33497,707,188,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['loop-unroll'],60640,1342,456,21,21,213,139,204,0,0
+program_3,"['loop-unroll', 'sroa']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['loop-unroll', 'sroa', 'gvn']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['loop-unroll', 'sroa', 'gvn', 'dce']",37154,827,188,21,21,38,20,192,0,0
+program_3,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg']",37154,827,188,21,21,38,20,192,0,0
+program_3,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg', 'simplifycfg']",33163,702,186,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['sroa'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll']",33497,707,188,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce']",33323,705,186,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce', 'mem2reg']",33323,705,186,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['gvn'],48093,1065,275,21,21,40,139,237,0,0
+program_3,"['gvn', 'mem2reg']",37308,831,192,21,21,40,20,191,0,0
+program_3,"['gvn', 'mem2reg', 'loop-unroll']",37420,834,192,21,21,40,20,191,0,0
+program_3,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg']",33613,711,189,21,21,40,20,193,0,0
+program_3,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce']",33522,710,188,21,21,40,20,193,0,0
+program_3,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce', 'sroa']",33522,710,188,21,21,40,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'loop-unroll']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'loop-unroll', 'sroa']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'dce']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'dce', 'loop-unroll']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'dce', 'loop-unroll', 'gvn']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa', 'simplifycfg']",33337,704,188,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['gvn'],48093,1065,275,21,21,40,139,237,0,0
+program_3,"['gvn', 'sroa']",37308,831,192,21,21,40,20,191,0,0
+program_3,"['gvn', 'sroa', 'simplifycfg']",33613,711,189,21,21,40,20,193,0,0
+program_3,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll']",33734,714,189,21,21,40,20,193,0,0
+program_3,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",33734,714,189,21,21,40,20,193,0,0
+program_3,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",33643,713,188,21,21,40,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['dce'],60528,1339,456,21,21,213,139,204,0,0
+program_3,"['dce', 'sroa']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'mem2reg']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'mem2reg', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn', 'loop-unroll']",33497,707,188,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['sroa'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'mem2reg']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce']",33202,702,186,21,21,38,20,193,0,0
+program_3,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce', 'loop-unroll']",33323,705,186,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['sroa'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'dce']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'dce', 'loop-unroll']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['sroa', 'dce', 'loop-unroll', 'gvn']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg', 'simplifycfg']",33337,704,188,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['simplifycfg'],55922,1191,455,21,21,211,139,204,0,0
+program_3,"['simplifycfg', 'sroa']",38668,815,230,21,21,53,20,190,0,0
+program_3,"['simplifycfg', 'sroa', 'dce']",38668,815,230,21,21,53,20,190,0,0
+program_3,"['simplifycfg', 'sroa', 'dce', 'loop-unroll']",38780,818,230,21,21,53,20,190,0,0
+program_3,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn']",35610,777,189,21,21,38,20,192,0,0
+program_3,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",35610,777,189,21,21,38,20,192,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['dce'],60528,1339,456,21,21,213,139,204,0,0
+program_3,"['dce', 'simplifycfg']",55922,1191,455,21,21,211,139,204,0,0
+program_3,"['dce', 'simplifycfg', 'loop-unroll']",56034,1194,455,21,21,211,139,204,0,0
+program_3,"['dce', 'simplifycfg', 'loop-unroll', 'gvn']",46511,1016,274,21,21,40,139,237,0,0
+program_3,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa']",35726,782,191,21,21,40,20,191,0,0
+program_3,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa', 'mem2reg']",35726,782,191,21,21,40,20,191,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'gvn']",37216,826,190,21,21,38,20,192,0,0
+program_3,"['mem2reg', 'gvn', 'simplifycfg']",33337,704,188,21,21,38,20,194,0,0
+program_3,"['mem2reg', 'gvn', 'simplifycfg', 'dce']",33163,702,186,21,21,38,20,194,0,0
+program_3,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa']",33163,702,186,21,21,38,20,194,0,0
+program_3,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa', 'loop-unroll']",33284,705,186,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['loop-unroll'],60640,1342,456,21,21,213,139,204,0,0
+program_3,"['loop-unroll', 'gvn']",48205,1068,275,21,21,40,139,237,0,0
+program_3,"['loop-unroll', 'gvn', 'mem2reg']",37420,834,192,21,21,40,20,191,0,0
+program_3,"['loop-unroll', 'gvn', 'mem2reg', 'dce']",37329,833,191,21,21,40,20,191,0,0
+program_3,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg']",33522,710,188,21,21,40,20,193,0,0
+program_3,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg', 'sroa']",33522,710,188,21,21,40,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['dce'],60528,1339,456,21,21,213,139,204,0,0
+program_3,"['dce', 'sroa']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'loop-unroll']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'loop-unroll', 'mem2reg']",43397,966,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn']",37328,829,190,21,21,38,20,192,0,0
+program_3,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn', 'simplifycfg']",33337,704,188,21,21,38,20,194,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'simplifycfg', 'sroa']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'simplifycfg', 'sroa', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce']",33202,702,186,21,21,38,20,193,0,0
+program_3,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce', 'loop-unroll']",33323,705,186,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['mem2reg'],43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'sroa']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['mem2reg', 'sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll']",36672,748,229,21,21,53,20,192,0,0
+program_3,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn']",33497,707,188,21,21,38,20,193,0,0
+program_3,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn', 'dce']",33323,705,186,21,21,38,20,193,0,0
+program_3,None,60514,1339,456,21,21,213,139,204,0,0
+program_3,['-O3'],36800,668,174,8,8,49,18,159,0,0
+program_3,['dce'],60528,1339,456,21,21,213,139,204,0,0
+program_3,"['dce', 'sroa']",43285,963,231,21,21,53,20,190,0,0
+program_3,"['dce', 'sroa', 'simplifycfg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['dce', 'sroa', 'simplifycfg', 'mem2reg']",36551,745,229,21,21,53,20,192,0,0
+program_3,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn']",33376,704,188,21,21,38,20,193,0,0
+program_3,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn', 'loop-unroll']",33497,707,188,21,21,38,20,193,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['sroa'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'loop-unroll']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'loop-unroll', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'loop-unroll', 'gvn', 'simplifycfg', 'dce', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg', 'dce']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg', 'dce', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'simplifycfg', 'dce', 'gvn', 'loop-unroll', 'sroa']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['sroa'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'loop-unroll']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['loop-unroll'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['loop-unroll', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['loop-unroll', 'sroa', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'sroa', 'gvn', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'sroa', 'gvn', 'dce', 'mem2reg', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['sroa'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'loop-unroll', 'dce', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['gvn'],71885,1046,132,9,9,16,55,174,0,0
+program_4,"['gvn', 'mem2reg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'mem2reg', 'loop-unroll']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'mem2reg', 'loop-unroll', 'simplifycfg', 'dce', 'sroa']",62049,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'loop-unroll']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'loop-unroll', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'loop-unroll', 'sroa', 'simplifycfg', 'dce', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'dce']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'dce', 'loop-unroll']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'dce', 'loop-unroll', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'dce', 'loop-unroll', 'gvn', 'sroa', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['gvn'],71885,1046,132,9,9,16,55,174,0,0
+program_4,"['gvn', 'sroa']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'sroa', 'simplifycfg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['gvn', 'sroa', 'simplifycfg', 'loop-unroll', 'mem2reg', 'dce']",62049,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['dce'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['dce', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'mem2reg']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'mem2reg', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['dce', 'sroa', 'mem2reg', 'simplifycfg', 'gvn', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['sroa'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'simplifycfg', 'gvn', 'mem2reg', 'dce', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['sroa'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'dce']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'dce', 'loop-unroll']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['sroa', 'dce', 'loop-unroll', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['simplifycfg'],78731,1158,209,9,9,92,55,151,0,0
+program_4,"['simplifycfg', 'sroa']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['simplifycfg', 'sroa', 'dce']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['simplifycfg', 'sroa', 'dce', 'loop-unroll']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['simplifycfg', 'sroa', 'dce', 'loop-unroll', 'gvn', 'mem2reg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['dce'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['dce', 'simplifycfg']",78731,1158,209,9,9,92,55,151,0,0
+program_4,"['dce', 'simplifycfg', 'loop-unroll']",78731,1158,209,9,9,92,55,151,0,0
+program_4,"['dce', 'simplifycfg', 'loop-unroll', 'gvn']",71885,1046,132,9,9,16,55,174,0,0
+program_4,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['dce', 'simplifycfg', 'loop-unroll', 'gvn', 'sroa', 'mem2reg']",62049,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'gvn', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'gvn', 'simplifycfg', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'gvn', 'simplifycfg', 'dce', 'sroa', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['loop-unroll'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['loop-unroll', 'gvn']",71885,1046,132,9,9,16,55,174,0,0
+program_4,"['loop-unroll', 'gvn', 'mem2reg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'gvn', 'mem2reg', 'dce']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg']",62049,861,91,9,9,16,8,144,0,0
+program_4,"['loop-unroll', 'gvn', 'mem2reg', 'dce', 'simplifycfg', 'sroa']",62049,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['dce'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['dce', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'loop-unroll']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'loop-unroll', 'mem2reg']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['dce', 'sroa', 'loop-unroll', 'mem2reg', 'gvn', 'simplifycfg']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg', 'sroa']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'simplifycfg', 'sroa', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'simplifycfg', 'sroa', 'gvn', 'dce', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['mem2reg'],66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['mem2reg', 'sroa', 'simplifycfg', 'loop-unroll', 'gvn', 'dce']",62179,861,91,9,9,16,8,144,0,0
+program_4,None,81211,1228,209,9,9,92,55,151,0,0
+program_4,['-O3'],80686,1061,116,9,9,34,17,177,0,0
+program_4,['dce'],81225,1228,209,9,9,92,55,151,0,0
+program_4,"['dce', 'sroa']",66480,954,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'simplifycfg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'simplifycfg', 'mem2reg']",63986,884,106,9,9,24,8,150,0,0
+program_4,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn']",62179,861,91,9,9,16,8,144,0,0
+program_4,"['dce', 'sroa', 'simplifycfg', 'mem2reg', 'gvn', 'loop-unroll']",62179,861,91,9,9,16,8,144,0,0
