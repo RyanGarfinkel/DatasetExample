@@ -1,0 +1,1681 @@
+program,flags,file_size,total_lines,instructions,functions,basic_blocks,load_instructions,store_instructions,call_instructions,runtime_seconds,peak_memory_mb
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.656748,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.736345,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.63545,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.633611,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.636119,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.583249,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.58583,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.602144,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.58646,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.588214,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.735904,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.708891,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.608469,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-mem2reg', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.64215,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.606163,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621833,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.629553,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.670226,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.591009,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.642596,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.638676,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.603938,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.59799,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.607021,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.677754,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.596629,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.59559,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-instcombine', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.62354,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.614441,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.59913,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.648005,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.69528,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.640699,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.629114,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.620229,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.641067,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.603568,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.607697,1.0
+matrix_multiplication,"['-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.692277,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.589909,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.607402,1.0
+matrix_multiplication,"['-inline', '-loop-unroll', '-gvn', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.620881,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.615315,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.618016,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.609719,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.629395,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.645135,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.610281,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.609015,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.606657,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.602043,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.601462,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.608731,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.664079,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.600034,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.642449,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.604005,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.605116,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.612926,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.605941,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.710337,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.659591,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.607819,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.599095,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.610075,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.662168,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.629051,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.69773,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.650191,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.701532,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.707843,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.679889,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.668799,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.693209,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.649432,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.742542,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.644823,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.628258,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.623125,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.611358,1.0
+matrix_multiplication,"['-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.615055,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.619085,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.612378,1.0
+matrix_multiplication,"['-inline', '-mem2reg', '-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.680411,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.614468,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.613585,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.620444,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.618769,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.664119,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.676629,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.608089,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.610351,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.624406,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.617368,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.635549,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.673338,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.619064,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.618521,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.614864,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627176,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.618209,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.634792,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.618376,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.67388,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.609917,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.605257,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.604987,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.648166,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.630095,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.620142,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.621366,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.656879,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.611622,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.639541,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.625702,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.6138,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.611475,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.67293,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.662078,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.616188,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.613868,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.628366,1.0
+matrix_multiplication,"['-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.61406,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.622093,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.629871,1.0
+matrix_multiplication,"['-inline', '-instcombine', '-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.670185,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.613773,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621531,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.623345,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.635949,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.669549,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.672227,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.621523,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.615607,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619728,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.634279,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.617354,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.671842,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.626524,1.0
+matrix_multiplication,"['-inline', '-gvn', '-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.618379,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.621998,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619697,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.616064,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.633213,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.63938,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.685882,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.677451,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.701344,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.704059,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.676656,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.677891,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.72802,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.656613,1.0
+matrix_multiplication,"['-inline', '-gvn', '-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.721704,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.6648,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.617785,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.641413,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.618272,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.619181,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.72216,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.74561,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.631152,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.634763,1.0
+matrix_multiplication,['-inline'],23112,573,274,8,0,10,12,68,1.628338,1.0
+matrix_multiplication,"['-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.64274,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.631812,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.633946,1.0
+matrix_multiplication,"['-inline', '-gvn', '-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.689269,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.6487,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.629152,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.681164,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.679942,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.686864,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.654016,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.63692,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.623142,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.631308,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.681939,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.7017,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.67725,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.630459,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-mem2reg', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.622004,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.633684,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.657292,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.703236,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.715752,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.628222,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.648509,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.630162,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627101,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.661814,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.710824,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.689897,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.645552,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.688051,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-instcombine', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.645238,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.642504,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.650392,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.669488,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.691237,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.623354,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.629624,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.628649,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.634072,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.63145,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.681588,1.0
+matrix_multiplication,"['-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.687673,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.622662,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.626918,1.0
+matrix_multiplication,"['-loop-unroll', '-inline', '-gvn', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.635013,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.639406,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.630251,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.673074,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.702059,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.674056,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.624999,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.62533,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627768,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.625534,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.671302,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.673745,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.670448,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.625834,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-inline', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.630954,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.632705,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621651,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.673785,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.679652,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.632987,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.638817,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.635297,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.62746,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.660062,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.71085,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.706124,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.628059,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.630517,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-instcombine', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.625034,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.629225,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619749,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.675512,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.68204,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.644751,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.647359,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.625105,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627969,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.625869,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.679172,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.705708,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.63878,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.65679,1.0
+matrix_multiplication,"['-loop-unroll', '-mem2reg', '-gvn', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.669271,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.624934,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.605254,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.680012,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.640528,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.634409,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.607672,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.611771,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.60972,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.610038,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.667408,1.25
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.627642,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.606585,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.615106,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-inline', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.620643,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.619438,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.608676,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.672502,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.643131,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.618432,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.636289,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.662928,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.620755,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.61171,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.653667,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.649829,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.668393,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.642596,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-mem2reg', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.626134,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.650561,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.635246,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.695266,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.640836,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.675569,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.648959,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.643703,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.654875,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.653833,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.664417,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.615279,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.624117,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.635433,1.0
+matrix_multiplication,"['-loop-unroll', '-instcombine', '-gvn', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.614408,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.614751,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627081,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.669118,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.623644,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.624446,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.637983,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.61371,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.617646,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.617406,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.676675,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.631896,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.610931,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.609893,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-inline', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.611868,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.626715,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.623945,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.692549,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.671988,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.638795,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.637398,1.25
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.624947,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.655007,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.63232,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.675255,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.639206,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.681442,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.647528,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-mem2reg', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.646987,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.643066,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.646291,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.70365,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.644719,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.630641,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.617294,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.630775,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.62171,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.61503,1.0
+matrix_multiplication,['-loop-unroll'],24145,596,294,8,0,10,12,68,1.671553,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.619713,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.657583,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.613485,1.0
+matrix_multiplication,"['-loop-unroll', '-gvn', '-instcombine', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.623444,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.624576,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619136,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.637224,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.612788,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.692852,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.615981,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.615898,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.624466,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.61296,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.612673,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.621395,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.671657,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.613614,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.632713,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.629216,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.652326,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.623507,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.630866,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.655347,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.677427,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.627336,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.628634,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.628105,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.630441,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.632229,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.629101,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.627624,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.675343,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.630238,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.62641,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.616773,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.623297,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.630424,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.674777,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.624703,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.62686,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627176,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.633727,1.0
+matrix_multiplication,"['-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.626844,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.65734,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.628377,1.0
+matrix_multiplication,"['-mem2reg', '-inline', '-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.668161,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.628915,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621015,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.622671,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.67045,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.674451,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.632223,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.618765,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.631653,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.62777,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.592678,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.664277,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.706569,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.631282,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-inline', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.624377,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.622581,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.628701,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.628606,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.675741,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.625462,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.632194,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.619446,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.624753,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619136,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.617446,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672987,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.615923,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine', '-gvn']",23224,576,274,8,0,10,12,68,1.619801,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-instcombine', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.619372,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.621781,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.631325,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.631335,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672479,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.641306,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.634347,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.620731,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.620455,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627831,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.621178,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672404,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.626884,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn', '-instcombine']",23224,576,274,8,0,10,12,68,1.622401,1.0
+matrix_multiplication,"['-mem2reg', '-loop-unroll', '-gvn', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.626728,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.624232,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.629465,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.621178,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.617995,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.609894,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.69513,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.626581,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.626878,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627166,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.617318,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.626791,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.629645,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.627734,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672203,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.623079,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627102,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.619407,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.621007,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.668496,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.667414,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.619705,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.623227,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627571,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.622776,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.62182,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.67298,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.638769,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.612465,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.618953,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.624403,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.628371,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.621558,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.625815,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.624286,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.676701,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.626271,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.634462,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.626958,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.623043,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.615597,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.681652,1.0
+matrix_multiplication,"['-mem2reg', '-instcombine', '-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.664627,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.61865,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621449,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.625375,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.621328,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.627265,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.668367,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.646966,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.635232,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.622735,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.619493,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.613333,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.612026,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.616047,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672633,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627563,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619165,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.621785,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.623503,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.691028,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.669151,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.620761,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.6206,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.612591,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.621333,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.619613,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.672392,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.626846,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.614118,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.595513,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619319,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.626134,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.617798,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.615753,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.638505,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.664064,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.630448,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.614163,1.0
+matrix_multiplication,['-mem2reg'],23112,573,274,8,0,10,12,68,1.626268,1.0
+matrix_multiplication,"['-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.631508,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.619102,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.674399,1.0
+matrix_multiplication,"['-mem2reg', '-gvn', '-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.680049,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.630796,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.626316,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.626309,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.624418,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.673298,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.66667,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.623794,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.629681,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.617424,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.614655,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.62333,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.758324,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.634937,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.619176,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.620281,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.614371,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.61631,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.615178,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.619673,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.66147,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.620444,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.617748,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.627727,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.618098,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.716953,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.61815,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.594948,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.68629,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.626556,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.621997,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.618935,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.613684,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.613485,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.663793,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.678479,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.625026,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.609238,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.601945,1.0
+matrix_multiplication,"['-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.598106,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.595536,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.611192,1.0
+matrix_multiplication,"['-instcombine', '-inline', '-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.659123,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.60536,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.599663,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.59738,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.641236,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.647014,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.657914,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.60093,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.589881,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.601981,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.608284,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.648422,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.651065,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.599276,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-inline', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.587977,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.58905,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.581517,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.599332,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.64063,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.634563,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.64221,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.61178,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.594144,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.606592,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.592285,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.644587,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.643097,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg', '-gvn']",23224,576,274,8,0,10,12,68,1.590909,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-mem2reg', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.589482,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.597554,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.584586,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.592879,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.636356,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.594997,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.597185,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.598597,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.596199,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.588694,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.59886,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.6368,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.594091,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn', '-mem2reg']",23224,576,274,8,0,10,12,68,1.597526,1.0
+matrix_multiplication,"['-instcombine', '-loop-unroll', '-gvn', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.590056,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.592714,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.592928,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.593805,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.586443,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.602587,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.642359,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.589009,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.596654,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.592639,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.588438,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.624242,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.624675,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline', '-gvn']",23112,573,274,8,0,10,12,68,1.625089,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-inline', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.674652,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.639017,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.620414,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.621232,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.616629,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.655876,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.665274,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll', '-inline', '-gvn']",23224,576,274,8,0,10,12,68,1.613079,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.623978,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.624917,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.621166,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.63238,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.668668,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll', '-gvn']",23224,576,274,8,0,10,12,68,1.715503,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-loop-unroll', '-gvn', '-inline']",23224,576,274,8,0,10,12,68,1.613027,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.608013,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.604445,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.619103,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.617065,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.610137,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.592244,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.652402,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.615838,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.598654,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.602798,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.592969,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn']",23112,573,274,8,0,10,12,68,1.598522,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.647565,1.0
+matrix_multiplication,"['-instcombine', '-mem2reg', '-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.648348,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.593272,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.592542,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.590158,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.590222,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.595574,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.646478,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.636331,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.593566,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.619808,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.595114,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.588653,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.587813,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.593535,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.638785,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.598638,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.588261,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.592219,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.599002,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.647842,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.640009,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.638049,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.594631,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.598437,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.593819,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.590362,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.637358,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.642898,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.684111,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.643067,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.648462,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.641744,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.606388,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.603463,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.615374,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.671156,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.629433,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.625395,1.0
+matrix_multiplication,['-instcombine'],23112,573,274,8,0,10,12,68,1.618185,1.0
+matrix_multiplication,"['-instcombine', '-gvn']",23112,573,274,8,0,10,12,68,1.617752,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.616785,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.668504,1.0
+matrix_multiplication,"['-instcombine', '-gvn', '-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.773899,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627414,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.647084,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.620145,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.620018,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.671236,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.67163,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.624331,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.621858,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.612465,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.618668,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.624534,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.663295,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.623709,1.0
+matrix_multiplication,"['-gvn', '-inline', '-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.617272,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.663808,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.625158,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.617271,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.616313,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.638559,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.667882,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.621222,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.628118,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.616553,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.61397,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.613979,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.614133,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.620066,1.0
+matrix_multiplication,"['-gvn', '-inline', '-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.667148,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.626132,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.62316,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.623979,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.619279,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.618467,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.662085,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.686425,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.620726,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.618844,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.643003,1.0
+matrix_multiplication,"['-gvn', '-inline']",23112,573,274,8,0,10,12,68,1.611264,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.610896,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.630443,1.0
+matrix_multiplication,"['-gvn', '-inline', '-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.673652,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.627701,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.618526,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.731014,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.806864,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.639697,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.638757,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.585782,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.800951,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.59501,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.585202,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.632565,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.639476,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.586301,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-inline', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,1.584866,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.584646,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.582475,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.587199,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.72156,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.63641,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.634884,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.595542,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.584069,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,2.091195,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.59132,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.634861,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.629282,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg', '-instcombine']",23224,576,274,8,0,10,12,68,1.584456,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-mem2reg', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.593524,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.587233,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.582993,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.588041,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.638461,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.583627,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.591468,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine', '-inline', '-mem2reg']",23224,576,274,8,0,10,12,68,1.809643,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.565272,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.556117,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.553498,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.603563,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.548805,1.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine', '-mem2reg']",23224,576,274,8,0,10,12,68,30.0,0.0
+matrix_multiplication,"['-gvn', '-loop-unroll', '-instcombine', '-mem2reg', '-inline']",23224,576,274,8,0,10,12,68,1.569427,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.554308,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.551042,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.542491,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.545461,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.551388,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.600206,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.543936,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.544144,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.552372,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.553868,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.550998,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.549943,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline', '-instcombine']",23112,573,274,8,0,10,12,68,1.549184,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-inline', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.59066,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.547051,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.584877,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.546897,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.5431,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.597181,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.590946,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll', '-inline', '-instcombine']",23224,576,274,8,0,10,12,68,1.546081,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.541193,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.545201,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.554815,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.552821,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.599452,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll', '-instcombine']",23224,576,274,8,0,10,12,68,1.55133,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-loop-unroll', '-instcombine', '-inline']",23224,576,274,8,0,10,12,68,1.555902,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.543596,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.552141,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.554352,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.546383,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.545631,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.546853,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.595906,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.548974,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.547713,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.551374,1.0
+matrix_multiplication,"['-gvn', '-mem2reg']",23112,573,274,8,0,10,12,68,1.558188,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine']",23112,573,274,8,0,10,12,68,1.549013,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.591937,1.0
+matrix_multiplication,"['-gvn', '-mem2reg', '-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.598348,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.549255,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.550425,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.548197,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.540805,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.553379,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.593709,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.596733,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.552237,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.537033,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.55151,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.554003,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline']",23112,573,274,8,0,10,12,68,1.547061,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline', '-mem2reg']",23112,573,274,8,0,10,12,68,1.542976,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-inline', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.599094,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.554618,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.550671,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.552676,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.548448,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.59067,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.594099,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll', '-inline', '-mem2reg']",24145,596,294,8,0,10,12,68,1.609162,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.546087,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.546006,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.54842,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.549985,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.600955,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll', '-mem2reg']",24145,596,294,8,0,10,12,68,1.600749,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-loop-unroll', '-mem2reg', '-inline']",24145,596,294,8,0,10,12,68,1.594658,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.551338,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.551447,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.550362,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.550882,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.552037,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg', '-inline']",23112,573,274,8,0,10,12,68,1.551694,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg', '-inline', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.602447,1.0
+matrix_multiplication,[],23189,573,274,8,0,10,12,68,1.553297,1.0
+matrix_multiplication,['-O3'],23221,569,274,8,0,10,9,68,1.547794,1.0
+matrix_multiplication,['-gvn'],23112,573,274,8,0,10,12,68,1.541741,1.0
+matrix_multiplication,"['-gvn', '-instcombine']",23112,573,274,8,0,10,12,68,1.548738,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg']",23112,573,274,8,0,10,12,68,1.544098,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg', '-loop-unroll']",24145,596,294,8,0,10,12,68,1.595654,1.0
+matrix_multiplication,"['-gvn', '-instcombine', '-mem2reg', '-loop-unroll', '-inline']",24145,596,294,8,0,10,12,68,1.597916,1.0
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010946,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010874,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010887,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.01066,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010724,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg', '-instcombine']",17147,419,161,8,0,11,11,25,0.010796,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010846,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010706,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010813,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.0109,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010946,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010718,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010864,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-mem2reg', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010567,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010844,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010813,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010763,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010799,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010882,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine', '-mem2reg']",17147,419,161,8,0,11,11,25,0.010693,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010936,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010787,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010943,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010802,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010617,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010684,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010843,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-instcombine', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010617,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.0109,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010733,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010675,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010716,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010726,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010683,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010889,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010659,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010961,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.01071,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010646,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.01061,0.25
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010819,0.12
+towers_of_hanoi,"['-inline', '-loop-unroll', '-gvn', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010663,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010988,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01071,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010632,0.25
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010649,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010625,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010979,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010811,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010793,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010696,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010792,0.12
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010723,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010883,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010654,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010726,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.011051,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010714,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010965,0.12
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010774,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010673,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010886,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.01062,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010556,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010888,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010657,0.25
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010621,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010628,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010608,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010588,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010664,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010807,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010759,0.25
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010668,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.01074,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01101,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.01068,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010664,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010587,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010648,0.25
+towers_of_hanoi,"['-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010807,0.25
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010616,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010929,0.12
+towers_of_hanoi,"['-inline', '-mem2reg', '-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010683,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010799,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010637,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010784,0.25
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010951,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010872,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010764,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010612,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010845,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01092,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.01063,0.25
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010916,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.011066,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010693,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010632,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010726,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010832,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010643,0.12
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010798,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010759,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010714,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010736,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010812,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010812,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010619,0.25
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.01083,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010906,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010685,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010839,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010839,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010938,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.011016,0.25
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010761,0.12
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010957,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010716,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010739,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010675,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010872,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010602,0.25
+towers_of_hanoi,"['-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010972,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010851,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010754,0.25
+towers_of_hanoi,"['-inline', '-instcombine', '-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010748,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010658,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010735,0.12
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010799,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010712,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010619,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010792,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010642,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010665,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01092,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010983,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010604,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010583,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010842,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-loop-unroll', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010916,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010842,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010848,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010615,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010734,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.01095,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010853,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010834,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010743,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010835,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010764,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010856,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010886,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg', '-instcombine']",16487,400,160,8,0,11,11,25,0.010608,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-mem2reg', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010662,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010894,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010726,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.011104,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010694,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010799,0.12
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010759,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.011009,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010779,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010693,0.25
+towers_of_hanoi,['-inline'],16399,398,161,8,0,11,11,25,0.010693,0.25
+towers_of_hanoi,"['-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010551,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010673,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010749,0.25
+towers_of_hanoi,"['-inline', '-gvn', '-instcombine', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010764,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010665,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010834,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010841,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010743,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010772,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg', '-instcombine']",17147,419,161,8,0,11,11,25,0.010775,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010964,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010675,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010917,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010681,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010837,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010939,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010656,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline', '-mem2reg', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010692,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010779,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010713,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010953,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010635,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine']",17147,419,161,8,0,11,11,25,0.010895,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine', '-mem2reg']",17147,419,161,8,0,11,11,25,0.010911,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010638,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010705,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010671,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010853,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010717,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine']",17147,419,161,8,0,11,11,25,0.011001,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010642,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-instcombine', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010837,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010857,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010676,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010704,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010705,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010559,0.12
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010693,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010824,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010892,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010724,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010852,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010913,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010669,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010788,0.25
+towers_of_hanoi,"['-loop-unroll', '-inline', '-gvn', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010648,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010862,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010886,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010865,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010864,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline']",17363,424,166,8,0,11,11,25,0.010953,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline', '-instcombine']",17147,419,161,8,0,11,11,25,0.010828,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010807,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010627,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010639,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010841,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010757,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline']",17363,424,166,8,0,11,11,25,0.010714,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010604,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-inline', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010839,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010742,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.011026,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010616,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.01084,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine']",17147,419,161,8,0,11,11,25,0.010838,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine', '-inline']",17147,419,161,8,0,11,11,25,0.010913,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010637,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010678,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010636,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010643,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010803,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine']",17147,419,161,8,0,11,11,25,0.01068,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010741,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-instcombine', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010628,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010693,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010985,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010697,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010659,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010938,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010825,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010637,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010677,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010664,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010771,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010978,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010875,0.25
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010687,0.12
+towers_of_hanoi,"['-loop-unroll', '-mem2reg', '-gvn', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010704,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010631,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010822,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010823,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010906,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline']",17147,419,161,8,0,11,11,25,0.010722,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline', '-mem2reg']",17147,419,161,8,0,11,11,25,0.010619,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010828,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010634,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010618,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010616,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010825,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline']",17147,419,161,8,0,11,11,25,0.01075,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010632,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-inline', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010665,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010657,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010714,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010703,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010687,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg']",17147,419,161,8,0,11,11,25,0.010811,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg', '-inline']",17147,419,161,8,0,11,11,25,0.010753,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010905,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010676,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.011035,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.01068,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010786,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg']",17147,419,161,8,0,11,11,25,0.010612,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010759,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-mem2reg', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010779,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010823,0.88
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010937,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010665,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010872,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010588,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010671,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn', '-inline', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010772,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010642,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010622,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010858,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010705,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010684,0.25
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010529,0.12
+towers_of_hanoi,"['-loop-unroll', '-instcombine', '-gvn', '-mem2reg', '-inline']",17235,421,160,8,0,11,11,25,0.010532,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010879,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010691,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010694,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010641,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010838,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010892,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010757,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010931,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010931,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.01076,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010774,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.0107,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010867,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-inline', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010726,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010711,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010617,0.12
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010813,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.01064,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010815,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg', '-inline']",17235,421,160,8,0,11,11,25,0.010682,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010697,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010676,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010591,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010818,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010921,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010634,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010643,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-mem2reg', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010554,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010719,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010949,0.25
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010766,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010623,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010706,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010708,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine', '-inline', '-mem2reg']",17235,421,160,8,0,11,11,25,0.01092,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010883,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.011028,0.38
+towers_of_hanoi,['-loop-unroll'],17363,424,166,8,0,11,11,25,0.010935,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010795,0.12
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.011082,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010817,0.25
+towers_of_hanoi,"['-loop-unroll', '-gvn', '-instcombine', '-mem2reg', '-inline']",17235,421,160,8,0,11,11,25,0.010745,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010674,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010666,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010819,0.25
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010558,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010971,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010921,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010639,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.011037,0.38
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010639,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010786,0.25
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010549,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010689,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010724,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010931,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01085,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010926,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010684,0.25
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010724,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.010633,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010824,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.01065,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010777,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010838,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010552,0.25
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010846,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine']",16399,398,161,8,0,11,11,25,0.011002,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010938,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010663,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010812,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010792,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.01073,0.25
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010679,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010605,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010917,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010664,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010766,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010828,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010782,0.12
+towers_of_hanoi,"['-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.01061,0.12
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010585,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010757,0.25
+towers_of_hanoi,"['-mem2reg', '-inline', '-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010651,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01095,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010633,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010897,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010791,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010858,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline', '-instcombine']",17147,419,161,8,0,11,11,25,0.010579,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010717,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010656,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010801,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010785,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.01083,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010727,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010672,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-inline', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.010899,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010705,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010538,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010831,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010722,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.01094,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine', '-inline']",17147,419,161,8,0,11,11,25,0.010647,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010923,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010801,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.0108,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010663,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010998,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine']",17147,419,161,8,0,11,11,25,0.010796,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine', '-gvn']",17235,421,160,8,0,11,11,25,0.010736,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-instcombine', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.0107,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010777,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01098,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010784,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010691,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010613,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010768,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010717,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010741,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010646,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010699,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010605,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010699,0.25
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn', '-instcombine']",17235,421,160,8,0,11,11,25,0.01064,0.12
+towers_of_hanoi,"['-mem2reg', '-loop-unroll', '-gvn', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010647,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010809,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010606,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010733,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.0108,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010773,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010667,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010873,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.011014,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010888,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.01055,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010841,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010609,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010578,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010628,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010772,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010698,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010543,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010933,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010848,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010964,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010656,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01064,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01106,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010742,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010794,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010646,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010797,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010672,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010749,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010968,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010841,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010868,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010915,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010866,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01059,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010591,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010695,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010653,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine']",16399,398,161,8,0,11,11,25,0.010702,0.12
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010795,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010952,0.25
+towers_of_hanoi,"['-mem2reg', '-instcombine', '-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010657,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010821,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010766,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010689,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010765,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010714,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010924,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010759,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01071,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010619,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.01089,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010947,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010666,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline', '-instcombine']",16487,400,160,8,0,11,11,25,0.010887,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-inline', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010715,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010863,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010669,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010633,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010952,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010741,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010969,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010777,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010782,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.011044,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010628,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010633,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010838,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010686,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-loop-unroll', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010874,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010635,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010959,0.25
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.01066,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010786,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010653,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine', '-inline']",16487,400,160,8,0,11,11,25,0.010685,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.011014,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010842,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010662,0.12
+towers_of_hanoi,['-mem2reg'],16399,398,161,8,0,11,11,25,0.010753,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.01078,0.25
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010709,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010674,0.12
+towers_of_hanoi,"['-mem2reg', '-gvn', '-instcombine', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010757,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010793,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.0109,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.01063,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010574,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010617,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010893,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010907,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010844,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010554,0.12
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010714,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010887,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010624,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010599,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010672,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010715,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010671,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.011066,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010893,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010809,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010855,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010647,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01065,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010671,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010692,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010839,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010741,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010794,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010609,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010687,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010775,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010881,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010582,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010847,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010796,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010851,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010834,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010979,0.12
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010702,0.25
+towers_of_hanoi,"['-instcombine', '-inline']",16399,398,161,8,0,11,11,25,0.010661,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010783,0.25
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010779,0.12
+towers_of_hanoi,"['-instcombine', '-inline', '-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010664,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010975,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010771,0.38
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010713,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010673,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010669,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline', '-mem2reg']",17363,424,166,8,0,11,11,25,0.01066,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010892,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010727,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010602,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010696,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010831,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010635,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010624,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-inline', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010786,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010655,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010797,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010717,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010695,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.010736,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg', '-inline']",17363,424,166,8,0,11,11,25,0.010783,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010667,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.0107,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010781,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010765,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010889,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg']",17363,424,166,8,0,11,11,25,0.011044,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg', '-gvn']",17235,421,160,8,0,11,11,25,0.010956,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-mem2reg', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010745,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010701,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010557,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010651,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010596,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010728,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.0107,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn', '-inline', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010589,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.011157,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010767,0.12
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010618,0.12
+towers_of_hanoi,"['-instcombine', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010725,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010774,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010806,0.25
+towers_of_hanoi,"['-instcombine', '-loop-unroll', '-gvn', '-mem2reg', '-inline']",17235,421,160,8,0,11,11,25,0.010812,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010794,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01064,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010751,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010748,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010841,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010751,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010726,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010748,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010873,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010616,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010619,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline']",16399,398,161,8,0,11,11,25,0.010711,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline', '-gvn']",16487,400,160,8,0,11,11,25,0.010859,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-inline', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010885,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010859,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010677,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010741,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010785,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.010672,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll', '-inline']",17363,424,166,8,0,11,11,25,0.010617,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll', '-inline', '-gvn']",17235,421,160,8,0,11,11,25,0.010827,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010698,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010879,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010592,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010724,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll']",17363,424,166,8,0,11,11,25,0.01068,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll', '-gvn']",17235,421,160,8,0,11,11,25,0.010825,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-loop-unroll', '-gvn', '-inline']",17235,421,160,8,0,11,11,25,0.010691,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010867,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010883,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010744,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010711,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010818,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010975,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010684,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010592,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010828,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010828,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg']",16399,398,161,8,0,11,11,25,0.010611,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn']",16487,400,160,8,0,11,11,25,0.010682,0.25
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010898,0.12
+towers_of_hanoi,"['-instcombine', '-mem2reg', '-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010839,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010893,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01089,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010902,0.12
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010744,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010698,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010822,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010708,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010641,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010831,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010741,0.12
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010859,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010764,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010846,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-inline', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010732,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010629,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01065,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010674,0.25
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.0107,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010543,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010786,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll', '-inline', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010645,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.011001,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010818,0.12
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010681,0.12
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010718,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010975,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.01058,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-loop-unroll', '-mem2reg', '-inline']",17451,426,165,8,0,11,11,25,0.010791,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010808,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010812,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.01067,0.12
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.010713,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010643,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg', '-inline']",16487,400,160,8,0,11,11,25,0.010761,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010853,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010928,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010796,0.25
+towers_of_hanoi,['-instcombine'],16399,398,161,8,0,11,11,25,0.010536,0.12
+towers_of_hanoi,"['-instcombine', '-gvn']",16487,400,160,8,0,11,11,25,0.011004,0.12
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010716,0.38
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010771,0.25
+towers_of_hanoi,"['-instcombine', '-gvn', '-mem2reg', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010697,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010811,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010636,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010711,0.12
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010613,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010917,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010805,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010654,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010715,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010683,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010791,0.25
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010607,0.38
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010785,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010982,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-loop-unroll', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010645,0.38
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010834,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010722,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010587,0.12
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010662,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010573,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010829,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010638,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010772,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010874,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010843,0.25
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010676,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010954,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg', '-instcombine']",16487,400,160,8,0,11,11,25,0.010627,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-mem2reg', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010951,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010994,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010659,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.01085,0.25
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010955,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine']",16487,400,160,8,0,11,11,25,0.010702,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010748,0.12
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.01087,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010824,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010612,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010767,0.25
+towers_of_hanoi,"['-gvn', '-inline']",16487,400,160,8,0,11,11,25,0.010902,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine']",16487,400,160,8,0,11,11,25,0.010756,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010615,0.25
+towers_of_hanoi,"['-gvn', '-inline', '-instcombine', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010693,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010925,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010966,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010784,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010887,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010829,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010925,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010639,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010829,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010855,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010955,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010739,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010882,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010574,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-inline', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010559,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010792,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01088,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010613,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010734,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010741,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg', '-inline']",17451,426,165,8,0,11,11,25,0.010998,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010806,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010962,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010606,0.38
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010678,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010651,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010577,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg', '-instcombine']",17235,421,160,8,0,11,11,25,0.010671,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-mem2reg', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010702,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010845,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.011091,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.01086,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010734,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010596,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010697,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine', '-inline', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010847,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010885,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010639,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010641,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01087,0.12
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.01089,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine', '-mem2reg']",17235,421,160,8,0,11,11,25,0.010896,0.25
+towers_of_hanoi,"['-gvn', '-loop-unroll', '-instcombine', '-mem2reg', '-inline']",17235,421,160,8,0,11,11,25,0.010749,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010846,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.01067,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010718,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.01088,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline']",16487,400,160,8,0,11,11,25,0.010753,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01071,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010786,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010783,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010619,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010843,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010647,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline']",16487,400,160,8,0,11,11,25,0.010871,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline', '-instcombine']",16487,400,160,8,0,11,11,25,0.010976,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-inline', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010836,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010731,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010778,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.01055,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.01092,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010592,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010641,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll', '-inline', '-instcombine']",17235,421,160,8,0,11,11,25,0.010626,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010819,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010885,0.12
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010924,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010645,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010902,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll', '-instcombine']",17235,421,160,8,0,11,11,25,0.010739,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-loop-unroll', '-instcombine', '-inline']",17235,421,160,8,0,11,11,25,0.010721,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010822,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010685,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010681,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010775,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine']",16487,400,160,8,0,11,11,25,0.01071,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine', '-inline']",16487,400,160,8,0,11,11,25,0.010675,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010808,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010674,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010751,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010607,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010746,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine']",16487,400,160,8,0,11,11,25,0.01087,0.12
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01089,0.25
+towers_of_hanoi,"['-gvn', '-mem2reg', '-instcombine', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010583,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.01063,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010913,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.01094,0.12
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010867,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline']",16487,400,160,8,0,11,11,25,0.01071,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010666,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010679,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010745,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010626,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.011227,0.5
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010762,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline']",16487,400,160,8,0,11,11,25,0.010674,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010888,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-inline', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010668,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010959,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010727,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010944,0.12
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010759,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010736,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010675,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll', '-inline', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010617,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010668,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010638,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010622,0.25
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010761,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010709,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll', '-mem2reg']",17451,426,165,8,0,11,11,25,0.010777,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-loop-unroll', '-mem2reg', '-inline']",17451,426,165,8,0,11,11,25,0.010664,0.12
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010851,0.12
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010561,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010778,0.25
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.010855,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010747,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg', '-inline']",16487,400,160,8,0,11,11,25,0.011065,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg', '-inline', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.010772,0.25
+towers_of_hanoi,[],16411,398,161,8,0,11,11,25,0.010734,0.25
+towers_of_hanoi,['-O3'],42630,667,419,8,0,58,98,119,0.010617,0.25
+towers_of_hanoi,['-gvn'],16487,400,160,8,0,11,11,25,0.010685,0.12
+towers_of_hanoi,"['-gvn', '-instcombine']",16487,400,160,8,0,11,11,25,0.011045,0.12
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg']",16487,400,160,8,0,11,11,25,0.010634,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg', '-loop-unroll']",17451,426,165,8,0,11,11,25,0.01071,0.25
+towers_of_hanoi,"['-gvn', '-instcombine', '-mem2reg', '-loop-unroll', '-inline']",17451,426,165,8,0,11,11,25,0.010741,0.25
