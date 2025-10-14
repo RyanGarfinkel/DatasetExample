@@ -4,3 +4,7 @@ psutil
 numpy
 matplotlib
 tqdm
+datasets>=2.14.0
+pyarrow
+ipykernel
+jupyterlab
